@@ -68,21 +68,13 @@ python main.py
 
 준비가 끝나면 터미널에 표시되는 로컬 URL을 브라우저에서 여세요. 질문을 입력하면 `chat_fn(message, history)`가 `chain.invoke(message)`를 호출해 답변을 표시합니다. 현재 체인은 이전 대화 기록을 사용하지 않으므로 각 질문에 대상과 조건을 함께 적으세요. 서버 종료는 터미널에서 `Ctrl+C`를 누릅니다.
 
-## 실행 화면
-
-캡처한 사진을 `screenshots/` 폴더에 아래 파일명으로 저장한 뒤, 해당 이미지 줄의 `<!--`와 `-->`를 지우면 사진이 표시됩니다.
-
 ### 1. Gradio 채팅 화면
 
-> 📷 채팅 화면 사진을 넣는 자리입니다. (`screenshots/chatbot.png`)
-
-<!-- ![Gradio 채팅 화면](screenshots/chatbot.png) -->
+![Gradio 채팅 화면](screenshots/chatbot.png)
 
 ### 2. 질문과 답변 결과
 
-> 📷 보고서에 대한 질문과 답변이 보이는 사진을 넣는 자리입니다. (`screenshots/answer.png`)
-
-<!-- ![보고서 질문과 답변 결과](screenshots/answer.png) -->
+![보고서 질문과 답변 결과](screenshots/answer.png)
 
 ## 파일 및 결과
 
